@@ -6,7 +6,10 @@
     @include('Frontend.includes.head')
 </head>
 
-<body id="bd" class="homepage home-layout1 res">
+<body id="bd" class="homepage home-layout1 res" >
+    <div class="loader">
+        <img src="{{ asset('Frontend/images/icon/newlnmu.gif') }}" />
+    </div>
     <div id="yt_wrapper" class="layout-wide">
         <!-- header starts here -->
         @include('Frontend.includes.header')
