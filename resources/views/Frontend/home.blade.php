@@ -114,7 +114,7 @@
                                 <a class="" href="#sj_k2slickslider346" data-jslide="7">8</a>
 
                                 <a class="" href="#sj_k2slickslider346" data-jslide="8">9</a>
-                                 <a class="" href="#sj_k2slickslider346" data-jslide="9">10</a>
+                                <a class="" href="#sj_k2slickslider346" data-jslide="9">10</a>
                                 <a class="" href="#sj_k2slickslider346" data-jslide="10">11</a>
 
                                 <a class="" href="#sj_k2slickslider346" data-jslide="11">12</a>
@@ -160,16 +160,14 @@
                     </div>
                     <div class="col-sm-3 slideLft">
 
-                        <div class="module  feature-teachers" style="height:468px; padding:0px">
+                        <div class="module feature-teachers" style="height:468px; padding:0px">
                             <div class="modcontent clearfix">
                                 <div class="carousel-custommer">
                                     <div id="yt-extra-carousel1" style="width:100%; height:100%"
                                         class="yt-extra-carousel carousel slide pull-center" data-ride="carousel"
                                         data-interval='false'>
                                         <div class="carousel-inner">
-
                                             <div class='item'>
-
                                                 <div class="customslider">
                                                     <div class="item-image"><a
                                                             href="RegistrarP%20Laxminarayana%20CV.pdf"
@@ -292,7 +290,7 @@
                                                     hspace="3">Library</a>
                                         </li>
                                         <li class="" style="width: -20px;">
-                                            <a href="{{route('alumniAssociation')}}" target="_blank"><img
+                                            <a href="{{ route('alumniAssociation') }}" target="_blank"><img
                                                     src="{{ asset('Frontend/images/icon7.png') }}" alt=""
                                                     hspace="3">Alumni Association</a>
                                         </li>
@@ -346,19 +344,21 @@
                             <!--    @endif-->
                             <!--    @endforeach-->
                             <!--@endif--> --}}
-                             <a ><i class="fa fa-envelope"> </i>  Helpline number for form filling issues only - <span style="color:white;font-weight:700;font-size:15px;">+91 88409 54266, +91 97718 84350</span>
+                            <a><i class="fa fa-envelope"> </i> Helpline number for form filling issues only - <span
+                                    style="color:white;font-weight:700;font-size:15px;">+91 88409 54266, +91 97718
+                                    84350</span>
                                 <img src="{{ asset('Frontend/images/newanim.gif') }}" />
-                                    </a>
+                            </a>
                             <!--    <a href="{{ asset('upload/Notice/result-sheet-netcopy-arts.pdf') }}" target="_blank"><i-->
                             <!--        class="fa fa-envelope">-->
                             <!--    </i> Results of B.A Part I <img-->
                             <!--        src="{{ asset('Frontend/images/newanim.gif') }}" /></a>-->
-                                    
+
                             <!--<a href="{{ asset('upload/Notice/PART-1-TR-Science.pdf') }}" target="_blank"><i-->
                             <!--        class="fa fa-envelope">-->
                             <!--    </i> Results of B.Sc Part-1 <img-->
                             <!--        src="{{ asset('Frontend/images/newanim.gif') }}" /></a>-->
-                            
+
                             <!--<a href="{{ asset('upload/Notice/net-RESULTSHEET-COMMERCE.pdf') }}" target="_blank"><i-->
                             <!--        class="fa fa-envelope">-->
                             <!--    </i> Results of COMMERCE <img-->
@@ -433,8 +433,8 @@
                                             <div class="meganew-box-inner">
                                                 <div class="meganew-items theme1">
                                                     <div class="item-other">
-                                                         <ul class="otehr-link" style="font-size: 14px;">
-                                                                @if ($notices)
+                                                        <ul class="otehr-link" style="font-size: 14px;">
+                                                            @if ($notices)
                                                                 @foreach ($notices as $notice)
                                                                     @if ($notice->type == 'link')
                                                                         <li class="row">
@@ -454,82 +454,82 @@
                                                                         </li>
                                                                     @endif
                                                                 @endforeach
-                                                                @endif
-                                                        <!--<ul class="otehr-link" style="font-size: 14px;">-->
-                                                        <!--     <li class="row">-->
-                                                        <!--        <a href="{{ asset('upload/Notice/result-sheet-netcopy-arts.pdf') }}"-->
-                                                        <!--            class="col-xs-12" title=""-->
-                                                        <!--            target="_blank"><i-->
-                                                        <!--                class="fa fa-envelope"></i>Results of B.A Part I, Examination, 2021(Session 2020-23) <img-->
-                                                        <!--                src="{{ asset('Frontend/images/newanim.gif') }}" />-->
-                                                        <!--        </a>-->
-                                                        <!--    </li>-->
-                                                        <!--    <li class="row">-->
-                                                        <!--        <a href="{{ asset('upload/Notice/Memo No. - XC-11352-11403-22 Date - 01.08.2022.pdf') }}"-->
-                                                        <!--            class="col-xs-12" title=""-->
-                                                        <!--            target="_blank"><i-->
-                                                        <!--                class="fa fa-envelope"></i>Notification of University Level External Examination of School Internship of B.Ed. Part-II (Session : 2020-22) Practical Examination-2022 <img-->
-                                                        <!--                src="{{ asset('Frontend/images/newanim.gif') }}" />-->
-                                                        <!--        </a>-->
-                                                        <!--    </li>-->
-                                                        <!--    <li class="row">-->
-                                                        <!--        <a href="{{ asset('upload/Notice/PART-1-TR-Science.pdf') }}"-->
-                                                        <!--            class="col-xs-12" title=""-->
-                                                        <!--            target="_blank"><i-->
-                                                        <!--                class="fa fa-envelope"></i>Results of B.Sc Part I, Examination, 2021 <img-->
-                                                        <!--                src="{{ asset('Frontend/images/newanim.gif') }}" />-->
-                                                        <!--        </a>-->
-                                                        <!--    </li>-->
-                                                        <!--    <li class="row">-->
-                                                        <!--        <a href="{{ asset('upload/Notice/net-RESULTSHEET-COMMERCE.pdf') }}"-->
-                                                        <!--            class="col-xs-12" title=""-->
-                                                        <!--            target="_blank"><i-->
-                                                        <!--                class="fa fa-envelope"></i>Results of COMMERCE Part I, Examination, 2021 (Session -2020-2023 ) <img-->
-                                                        <!--                src="{{ asset('Frontend/images/newanim.gif') }}" />-->
-                                                        <!--        </a>-->
-                                                        <!--    </li>-->
-                                                        <!--    <li class="row">-->
-                                                        <!--        <a href="{{ asset('upload/Notice/26-Jul-20224767.pdf') }}"-->
-                                                        <!--            class="col-xs-12" title=""-->
-                                                        <!--            target="_blank"><i-->
-                                                        <!--                class="fa fa-envelope"></i>Notification of-->
-                                                        <!--            Examination Forms and Fee of M.Ed. 2nd Semester-->
-                                                        <!--            (Session : 2021-23) and M.Ed. 4th Semester (Session-->
-                                                        <!--            : 2020-22) Examination 2022 <img-->
-                                                        <!--                src="{{ asset('Frontend/images/newanim.gif') }}" />-->
-                                                        <!--        </a>-->
-                                                        <!--    </li>-->
-                                                        <!--    <li class="row">-->
-                                                        <!--        <a href="{{ asset('upload/Notice/26-Jul-20222946.pdf') }}"-->
-                                                        <!--            class="col-xs-12" title=""-->
-                                                        <!--            target="_blank"><i-->
-                                                        <!--                class="fa fa-envelope"></i>Notification of-->
-                                                        <!--            Examination forms and Fee of Six Month Certificate-->
-                                                        <!--            Course in Management of Music and Dramatics (Session-->
-                                                        <!--            : 2021-22) Examination - 2022 <img-->
-                                                        <!--                src="{{ asset('Frontend/images/newanim.gif') }}" />-->
-                                                        <!--        </a>-->
-                                                        <!--    </li>-->
-                                                        <!--    <li class="row">-->
-                                                        <!--        <a href="{{ asset('upload/Notice/25-Jul-20225340.pdf') }}"-->
-                                                        <!--            class="col-xs-12" title=""-->
-                                                        <!--            target="_blank"><i-->
-                                                        <!--                class="fa fa-envelope"></i>Notification of Date-->
-                                                        <!--            Extend Examination form B.A./B.Sc./B.Com. Part-III-->
-                                                        <!--            (Session : 2019-22, 2014-17, 2015-18)-->
-                                                        <!--            Examination-2021 <img-->
-                                                        <!--                src="{{ asset('Frontend/images/newanim.gif') }}" />-->
-                                                        <!--        </a>-->
-                                                        <!--    </li>-->
-                                                        <!--    <li class="row">-->
-                                                        <!--        <a href="http://lnmuniversity.com/LNMU_ERP/UserLogin.aspx"-->
-                                                        <!--            class="col-xs-12" title=""-->
-                                                        <!--            target="_blank"><i-->
-                                                        <!--                class="fa fa-envelope"></i>Examination form for-->
-                                                        <!--            part 3 session 2019-22 <img-->
-                                                        <!--                src="{{ asset('Frontend/images/newanim.gif') }}" />-->
-                                                        <!--        </a>-->
-                                                        <!--    </li>-->
+                                                            @endif
+                                                            <!--<ul class="otehr-link" style="font-size: 14px;">-->
+                                                            <!--     <li class="row">-->
+                                                            <!--        <a href="{{ asset('upload/Notice/result-sheet-netcopy-arts.pdf') }}"-->
+                                                            <!--            class="col-xs-12" title=""-->
+                                                            <!--            target="_blank"><i-->
+                                                            <!--                class="fa fa-envelope"></i>Results of B.A Part I, Examination, 2021(Session 2020-23) <img-->
+                                                            <!--                src="{{ asset('Frontend/images/newanim.gif') }}" />-->
+                                                            <!--        </a>-->
+                                                            <!--    </li>-->
+                                                            <!--    <li class="row">-->
+                                                            <!--        <a href="{{ asset('upload/Notice/Memo No. - XC-11352-11403-22 Date - 01.08.2022.pdf') }}"-->
+                                                            <!--            class="col-xs-12" title=""-->
+                                                            <!--            target="_blank"><i-->
+                                                            <!--                class="fa fa-envelope"></i>Notification of University Level External Examination of School Internship of B.Ed. Part-II (Session : 2020-22) Practical Examination-2022 <img-->
+                                                            <!--                src="{{ asset('Frontend/images/newanim.gif') }}" />-->
+                                                            <!--        </a>-->
+                                                            <!--    </li>-->
+                                                            <!--    <li class="row">-->
+                                                            <!--        <a href="{{ asset('upload/Notice/PART-1-TR-Science.pdf') }}"-->
+                                                            <!--            class="col-xs-12" title=""-->
+                                                            <!--            target="_blank"><i-->
+                                                            <!--                class="fa fa-envelope"></i>Results of B.Sc Part I, Examination, 2021 <img-->
+                                                            <!--                src="{{ asset('Frontend/images/newanim.gif') }}" />-->
+                                                            <!--        </a>-->
+                                                            <!--    </li>-->
+                                                            <!--    <li class="row">-->
+                                                            <!--        <a href="{{ asset('upload/Notice/net-RESULTSHEET-COMMERCE.pdf') }}"-->
+                                                            <!--            class="col-xs-12" title=""-->
+                                                            <!--            target="_blank"><i-->
+                                                            <!--                class="fa fa-envelope"></i>Results of COMMERCE Part I, Examination, 2021 (Session -2020-2023 ) <img-->
+                                                            <!--                src="{{ asset('Frontend/images/newanim.gif') }}" />-->
+                                                            <!--        </a>-->
+                                                            <!--    </li>-->
+                                                            <!--    <li class="row">-->
+                                                            <!--        <a href="{{ asset('upload/Notice/26-Jul-20224767.pdf') }}"-->
+                                                            <!--            class="col-xs-12" title=""-->
+                                                            <!--            target="_blank"><i-->
+                                                            <!--                class="fa fa-envelope"></i>Notification of-->
+                                                            <!--            Examination Forms and Fee of M.Ed. 2nd Semester-->
+                                                            <!--            (Session : 2021-23) and M.Ed. 4th Semester (Session-->
+                                                            <!--            : 2020-22) Examination 2022 <img-->
+                                                            <!--                src="{{ asset('Frontend/images/newanim.gif') }}" />-->
+                                                            <!--        </a>-->
+                                                            <!--    </li>-->
+                                                            <!--    <li class="row">-->
+                                                            <!--        <a href="{{ asset('upload/Notice/26-Jul-20222946.pdf') }}"-->
+                                                            <!--            class="col-xs-12" title=""-->
+                                                            <!--            target="_blank"><i-->
+                                                            <!--                class="fa fa-envelope"></i>Notification of-->
+                                                            <!--            Examination forms and Fee of Six Month Certificate-->
+                                                            <!--            Course in Management of Music and Dramatics (Session-->
+                                                            <!--            : 2021-22) Examination - 2022 <img-->
+                                                            <!--                src="{{ asset('Frontend/images/newanim.gif') }}" />-->
+                                                            <!--        </a>-->
+                                                            <!--    </li>-->
+                                                            <!--    <li class="row">-->
+                                                            <!--        <a href="{{ asset('upload/Notice/25-Jul-20225340.pdf') }}"-->
+                                                            <!--            class="col-xs-12" title=""-->
+                                                            <!--            target="_blank"><i-->
+                                                            <!--                class="fa fa-envelope"></i>Notification of Date-->
+                                                            <!--            Extend Examination form B.A./B.Sc./B.Com. Part-III-->
+                                                            <!--            (Session : 2019-22, 2014-17, 2015-18)-->
+                                                            <!--            Examination-2021 <img-->
+                                                            <!--                src="{{ asset('Frontend/images/newanim.gif') }}" />-->
+                                                            <!--        </a>-->
+                                                            <!--    </li>-->
+                                                            <!--    <li class="row">-->
+                                                            <!--        <a href="http://lnmuniversity.com/LNMU_ERP/UserLogin.aspx"-->
+                                                            <!--            class="col-xs-12" title=""-->
+                                                            <!--            target="_blank"><i-->
+                                                            <!--                class="fa fa-envelope"></i>Examination form for-->
+                                                            <!--            part 3 session 2019-22 <img-->
+                                                            <!--                src="{{ asset('Frontend/images/newanim.gif') }}" />-->
+                                                            <!--        </a>-->
+                                                            <!--    </li>-->
                                                             <!--<li class="row">-->
                                                             <!--    <a href="{{ asset('upload/Notice/22-Jul-20222413.pdf') }}"-->
                                                             <!--        class="col-xs-12" title=""-->
@@ -542,7 +542,8 @@
                                                         </ul>
 
 
-                                                        <a href="{{ route('allNotice') }}" class="col-xs-12" title=""
+                                                        <a href="{{ route('allNotice') }}" class="col-xs-12"
+                                                            title=""
                                                             style="background: #7C0000; color: #fff; width: auto;"><strong>More
                                                                 News</strong></a>
                                                     </div>
@@ -608,8 +609,8 @@
                                                                         style="float: left; background: #00aeef">June
                                                                         2022</span></a>
                                                                 <a href="{{ asset('upload/Notice/22-Jul-20226800.jpg') }}"
-                                                                    target="_blank" class="col-xs-10"
-                                                                    title=""> International Womens Day Celebration 2022 <img
+                                                                    target="_blank" class="col-xs-10" title="">
+                                                                    International Womens Day Celebration 2022 <img
                                                                         src="{{ asset('Frontend/images/newanim.gif') }}" /></a>
                                                             </li>
 
@@ -670,13 +671,13 @@
                                         <div class="vpo-wrap">
                                             <div class="vp">
                                                 <div class="vpi-wrap">
-                                                    
+
                                                     <div class="item">
                                                         <div class="item-wrap">
                                                             <div class="item-img item-height">
                                                                 <div class="item-img-info">
-                                                                    <a href="{{route('photogallery1')}}" target="_blank"><img
-                                                                            alt=" "
+                                                                    <a href="{{ route('photogallery1') }}"
+                                                                        target="_blank"><img alt=" "
                                                                             src="{{ asset('Frontend/images/banners/jubli2.jpg') }}" /></a>
                                                                     <div class="over-image"></div>
                                                                 </div>
@@ -685,8 +686,9 @@
                                                             <div class="item-info">
                                                                 <div class="item-inner">
                                                                     <div class="item-title">
-                                                                        <a href="{{route('photogallery1')}}" title=" "
-                                                                            target="_blank">Golden Jubilee</a>
+                                                                        <a href="{{ route('photogallery1') }}"
+                                                                            title=" " target="_blank">Golden
+                                                                            Jubilee</a>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -697,8 +699,8 @@
                                                         <div class="item-wrap">
                                                             <div class="item-img item-height">
                                                                 <div class="item-img-info">
-                                                                    <a href="{{route('photogallery2')}}" target="_blank"><img
-                                                                            alt=" "
+                                                                    <a href="{{ route('photogallery2') }}"
+                                                                        target="_blank"><img alt=" "
                                                                             src="{{ asset('Frontend/images/banners/20.jpg') }}" /></a>
                                                                     <div class="over-image"></div>
                                                                 </div>
@@ -707,15 +709,16 @@
                                                             <div class="item-info">
                                                                 <div class="item-inner">
                                                                     <div class="item-title">
-                                                                        <a href="{{route('photogallery2')}}" title=" "
-                                                                            target="_blank">Alumni Association</a>
+                                                                        <a href="{{ route('photogallery2') }}"
+                                                                            title=" " target="_blank">Alumni
+                                                                            Association</a>
                                                                     </div>
                                                                 </div>
                                                             </div>
 
                                                         </div>
                                                     </div>
-                                                    
+
                                                     <div class="item">
                                                         <div class="item-wrap">
                                                             <div class="item-img item-height">
@@ -913,10 +916,6 @@
                 </div>
             </div>
         </section>
-        
-       
-        
-        
 
         @include('Frontend.includes.footertop')
 
