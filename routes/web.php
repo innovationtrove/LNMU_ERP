@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\Backend\BranchController;
 
 Route::group(['middleware'=>'throttle:15,1'],function(){
     Route::get('/', [HomeController::class, 'index']);
@@ -150,5 +151,7 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
     Route::get('/aqar', [AdminController::class, 'aqar'])->name('aqar');
     Route::post('/saveaqar',[AdminController::class,'saveAqar'])->name('saveaqar');
     Route::get('/delaqar/{del}',[AdminController::class,'delAqar']);
+
+    Route::resource('/branch',BranchController::class);
 
 });
