@@ -82,8 +82,7 @@ class BranchController extends Controller
      */
     public function show($id)
     {
-        // $branchdata=Branch::get();
-        // return view('Backend.branch',compact('branchdata'));
+       
     }
 
     /**
@@ -151,7 +150,14 @@ class BranchController extends Controller
     {
         // return $id;exit;
         $del=Branch::find($id);
-        $del->delete();
+       $res=$del->delete();
+        if($res)
+        {
+          Session::flash('success','Branch Deleted successfully');
+        }
+        else{
+          Session::flash('fail','Opp\'s Branch not Deleted ');
+        }
         return redirect()->back();
     }
 }
