@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Notice;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Redirect;
 
 class HomeController extends Controller
 {
@@ -188,9 +189,15 @@ class HomeController extends Controller
         return view('Frontend.policies');
     }
 
-    function criteria()
+    function criteria($password)
     {
-        return view('Frontend.criteria');
+        if($password === 'LNMU@321'){
+            return view('Frontend.criteria');
+        }
+        else
+        {
+            return view('Frontend.includes.error');
+        }
     }
 
     function allOfficer()
