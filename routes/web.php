@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\Backend\BranchController;
+use Illuminate\Support\Facades\Artisan;
 
 Route::group(['middleware'=>'throttle:15,1'],function(){
     Route::get('/', [HomeController::class, 'index']);
@@ -154,4 +155,13 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
 
     Route::resource('/branch',BranchController::class);
 
+});
+
+
+
+Route::get('/optimize', function(){
+    Artisan::call('optimize');
+});
+Route::get('/optimize-clear', function(){
+    Artisan::call('optimize:clear');
 });
