@@ -32,7 +32,7 @@ Route::group(['middleware'=>'throttle:15,1'],function(){
     Route::get('/e-learning-resources', [HomeController::class, 'eLearningResource'])->name('eLearningResource');
     
     Route::get('/aqar', [HomeController::class, 'aqar'])->name('aqar');
-    Route::get('/criteria/{password}', [HomeController::class, 'criteria'])->name('criteria');
+    Route::get('/criteria/{password?}', [HomeController::class, 'criteria'])->name('criteria');
     
     Route::get('/contact-us', [HomeController::class, 'contactus'])->name('contactus');
     
