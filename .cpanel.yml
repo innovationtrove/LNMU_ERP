@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/lnadm12mu/public_html/lnmu_ac_in
+    - /bin/cp * $DEPLOYPATH
