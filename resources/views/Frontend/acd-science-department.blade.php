@@ -37,8 +37,8 @@
                 </div>
                 <img src="{{ asset('Frontend/images/officers/zoology_head.jpeg') }}" style="height: 300px;width:400px;">
                 <div class="box-content">
-                    <h3 class="title">Dr. K.K. Jha</h3>
-                    <span class="post">9470644735, deanscience@lnmu.ac.in</span>
+                    <h3 class="title">Dr. Shishir Kumar Verma</h3>
+                    <span class="post">deanscience@lnmu.ac.in</span>
 </div>
             </div>
         </div>
