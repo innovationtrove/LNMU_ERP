@@ -4,8 +4,11 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\Backend\BranchController;
+use App\Http\Controllers\Backend\TeacherController;
+use Illuminate\Support\Facades\Artisan;
 use App\Http\Controllers\Backend\DepartmentController;
 use App\Http\Controllers\Backend\DesignationController;
+
 Route::group(['middleware'=>'throttle:15,1'],function(){
     Route::get('/', [HomeController::class, 'index']);
     Route::get('/iqac-intro', [HomeController::class, 'iqacIntro'])->name('iqac-intro');
@@ -32,7 +35,7 @@ Route::group(['middleware'=>'throttle:15,1'],function(){
     Route::get('/e-learning-resources', [HomeController::class, 'eLearningResource'])->name('eLearningResource');
     
     Route::get('/aqar', [HomeController::class, 'aqar'])->name('aqar');
-    Route::get('/criteria', [HomeController::class, 'criteria'])->name('criteria');
+    Route::get('/criteria/{password?}', [HomeController::class, 'criteria'])->name('criteria');
     
     Route::get('/contact-us', [HomeController::class, 'contactus'])->name('contactus');
     
@@ -154,7 +157,17 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
     Route::get('/delaqar/{del}',[AdminController::class,'delAqar']);
     Route::resource('/department',DepartmentController::class);
     Route::resource('/branch',BranchController::class);
+    Route::resource('/teacher',TeacherController::class);
     Route::resource('/designation',DesignationController::class);
 
 
+});
+
+
+
+Route::get('/optimize', function(){
+    Artisan::call('optimize');
+});
+Route::get('/optimize-clear', function(){
+    Artisan::call('optimize:clear');
 });
