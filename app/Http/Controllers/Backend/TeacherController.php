@@ -1,10 +1,10 @@
 <?php
 
 namespace App\Http\Controllers\Backend;
-
+use App\Models\Teacher;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-
+use Illuminate\Support\Facades\Session;
 class TeacherController extends Controller
 {
     /**
@@ -14,7 +14,7 @@ class TeacherController extends Controller
      */
     public function index()
     {
-        //
+        return view('Backend.teacher');
     }
 
     /**
@@ -35,7 +35,46 @@ class TeacherController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'name'=>'required|min:2|unique:teacher,name',
+            'father_name'=>'required',
+            'mobile'=>'required|max:10',
+            'email'=>'required|unique|email',
+            'password'=>'required',
+            'file'=>'nullable|image',
+            'cv'=>'nullable|pdf'
+          ]);
+          $image='';
+          $cv='';
+          if($request->hasFile('file'))
+          {
+            $image='Teacher-'.time().'-'.rand(0,99).'.'.$request->file->extension();
+            $request->file->move(public_path('upload/teacher'),$image);
+            $image ='upload/teacher/'.$image;
+          }
+          if($request->hasFile('file'))
+          {
+            $cv='Teacher-'.time().'-'.rand(0,99).'.'.$request->file->extension();
+            $request->file->move(public_path('upload/teacher'),$cv);
+            $cv ='upload/teacher/'.$cv;
+          }
+          $res=Teacher::create([
+            'name'=>$request->name,
+            'father_name'=>$request->father_name,
+            'mobile'=>$request->mobile,
+            'email'=>$request->email,
+            'password'=>$request->password,
+            'cv'=>$request->cv,
+            'pic'=>$image
+          ]);  
+     if($res)
+       {
+        Session::flash('success','Teacher added successfully');
+       }
+       else {
+        Session::flash('fail','Teacher added fail');
+       }
+  
     }
 
     /**
