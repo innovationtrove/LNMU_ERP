@@ -578,4 +578,11 @@ class HomeController extends Controller
         return view('Frontend.nirf');
     }
 
+    public function ugMaterials(){
+        return view('Frontend.ug_materials');
+    }
+    public function pgMaterials(){
+        return view('Frontend.pg_materials');
+    }
+
 }
