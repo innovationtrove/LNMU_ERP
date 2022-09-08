@@ -139,6 +139,10 @@ Route::group(['middleware'=>'throttle:15,1'],function(){
     Route::get('/acd-college',[HomeController::class,'acd_college'])->name('acd.college');
     
     Route::get('/all-notices', [HomeController::class, 'allNotice'])->name('allNotice');
+    Route::get('/ug-materials', [HomeController::class, 'ugMaterials'])->name('ugMaterials');
+    Route::get('/pg-materials', [HomeController::class, 'pgMaterials'])->name('pgMaterials');
+
+
 
 });
 
