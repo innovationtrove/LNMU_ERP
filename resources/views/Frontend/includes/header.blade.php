@@ -88,7 +88,7 @@
 
 
             <div id="yt_logo" class="col-md-3 hidden-sm">
-                <div class="date">
+                <div class="date" style="margin-left: 60px;">
                     <script language="JavaScript">
                         document.write(customDateString())
                     </script>
