@@ -17,7 +17,7 @@ class BranchController extends Controller
     public function index()
     {
 
-        $branchd=Branch::where('deleted_at',Null)->get();
+        $branchd=Branch::get();
        // $bdata=Branch::find($id);
         return view('Backend.branch',compact('branchd'));
 
