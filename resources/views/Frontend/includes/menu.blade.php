@@ -493,25 +493,24 @@
                                     <ul class="nav">
                                         <li class="level2 first">
                                             <a title="" class="level2 first item-link"
-                                                href="{{ route('admission.home') }}" target="_blank"><span
-                                                    class="menu-title">Admission</span></a>
+                                                href="{{ route('acd.phd') }}" target="_blank"><span
+                                                    class="menu-title">Phd.</span></a>
                                         </li>
                                         <li class="level2">
                                             <a title="" class="level2 item-link"
-                                                href="{{ route('examHome') }}"><span
-                                                    class="menu-title">Examination</span></a>
+                                                href="{{ route('acd.faculties') }}"><span
+                                                    class="menu-title">Faculties</span></a>
                                         </li>
 
                                         <li class="level2">
                                             <a title="" class="level2 item-link"
-                                                href="{{ route('feeStructure') }}"><span class="menu-title">Fee
-                                                    Structure</span></a>
+                                                href="{{ route('constituentColleges') }}"><span class="menu-title">Colleges</span></a>
                                         </li>
 
                                         <li class="level2 last">
                                             <a title="" class="level2 item-link"
-                                                href="{{ route('studentScholarship') }}"><span
-                                                    class="menu-title">Scholarship</span></a>
+                                                href="{{ route('departmentBusinessDepartment') }}"><span
+                                                    class="menu-title">Self Financed Inst.</span></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -565,7 +564,8 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li><a title="Home " href='#' class="active">Programme/Courses</a></li>
+                            
+                            <li><a title="Programme/Course" href='{{ route('course') }}' class="active">Programme/Courses</a></li>
                             <li class="haveChild level1"><a title="Explore " href='#'>IQAC</a><span
                                     class="menuress-toggle"></span>
                                 <div class="res-wrapnav">
