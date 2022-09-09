@@ -358,13 +358,13 @@
                     </li>
 
                     <li class="level1 havechild">
-                        <a title="Pages " class="level1 havechild  item-link" href="{{ route('archive') }}"><span
-                                class="menu-title">Archive</span></a>
+                        <a title="R&D Cell" class="level1 havechild  item-link" href="{{ route('rndCell') }}"><span
+                                class="menu-title">R&D Cell</span></a>
                     </li>
 
                     <li class="level1 havechild ">
-                        <a title="Pages " class="level1 havechild  item-link" href="{{ route('contactus') }}"><span
-                                class="menu-title">Contact Us</span></a>
+                        <a title="RTI " class="level1 havechild  item-link" href="{{ route('rtiAct') }}"><span
+                                class="menu-title">RTI</span></a>
 
                     </li>
                 </ul>
@@ -671,11 +671,9 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li><a title="Kulgeet " href='{{ route('kulgeet') }}'>Kulgeet</a></li>
-                            <li><a title="Archive " href='{{ route('archive') }}' >Archive</a></li>
-                            <li><a title="Contact Us " href='{{ route('contactus') }}' >Contact Us</a></li>
-
-
+                            <li><a title="Kulgeet" href='{{ route('kulgeet') }}'>Kulgeet</a></li>
+                            <li><a title="R&D Cell" href='{{ route('rndCell') }}' >R&D Cell</a></li>
+                            <li><a title="RTI" href='{{ route('rtiAct') }}' >RTI</a></li>
 
                         </ul>
                     </div>

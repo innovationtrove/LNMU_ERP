@@ -301,9 +301,9 @@
                                         </li>
 
                                         <li class="" style="width: -20px;">
-                                            <a href="{{ route('rtiAct') }}"><img
+                                            <a href="{{ route('eventSeminars') }}"><img
                                                     src="{{ asset('Frontend/images/icon9.png') }}" alt=""
-                                                    hspace="3">RTI</a>
+                                                    hspace="3">Events/Seminars</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -413,7 +413,7 @@
                             <li><a href="#" target="_blank">Surprise Visit Report</a></li>
                             <li><a href="#">Careers &amp; Fellowships</a></li>
                             <li><a href="{{ route('iqacSsr') }}">Student Satisfactory Survey</a></li>
-                            <li><a href="{{ route('rtiAct') }}" target="_blank">RTI ACT</a></li>
+                            <li><a href="{{ route('archive') }}" target="_blank">Archive</a></li>
                             <li><a href="{{ route('essentialForms') }}">Essential Forms For Employee</a></li>
                         </ul>
                     </div>
@@ -902,13 +902,14 @@
                                     <li><a href="https://www.aiu.ac.in/Meetings/meeting.asp" target="_blank">AIU
                                             Meetings Notifications</a></li>
                                     <li><a href="https://ugc.ac.in/ugc_notices.aspx" target="_blank">UGC
-                                            Notificationmeu </a></li>
+                                            Notification </a></li>
                                     <li><a href="https://grievance.lnmu.ac.in/">Grievance Redressal Portal</a></li>
 
 
 
                                     <li><a href="https://lnmu.ac.in:2096/" target="_blank">University
-                                            e-mail</a></li>
+                                            E-mail</a></li>
+                                    <li><a href="{{ route('contactus') }}" target="_blank">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>

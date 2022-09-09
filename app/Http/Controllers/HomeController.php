@@ -24,8 +24,12 @@ class HomeController extends Controller
 
     public function index()
     {
-        $notices = Notice::where('category', 'notice')
-            ->orderBy('id', 'desc')->take(6)->get();
+        $notices = Notice::orWhere('category', 'notice')
+                        ->orWhere('category', 'admission')
+                        ->orWhere('category', 'examination')
+                        ->orderBy('id', 'desc')
+                        ->take(6)->get();
+
         $events = Notice::where('category', 'events')
             ->orderBy('id', 'desc')->take(7)->get();
         // $topnotices = Notice::where('deleted_at', NULL)
@@ -111,7 +115,9 @@ class HomeController extends Controller
 
     function admissionHome()
     {
-        return view('Frontend.admission_home');
+        $notices = Notice::where('category', 'admission')
+            ->orderBy('id', 'desc')->take(7)->get();
+        return view('Frontend.admission_home', compact('notices'));
     }
 
     function aqar()
@@ -126,7 +132,9 @@ class HomeController extends Controller
 
     function examHome()
     {
-        return view('Frontend.exam_home');
+        $notices = Notice::where('category', 'examination')
+            ->orderBy('id', 'desc')->take(7)->get();
+        return view('Frontend.exam_home', compact('notices'));
     }
 
     function examResult()
@@ -465,10 +473,18 @@ class HomeController extends Controller
 
     public function documentNotice()
     {
-        $notices = Notice::where('category', 'notice')
-            ->where('deleted_at', NULL)
-            ->orderBy('id', 'desc')->take(30)->get();
+        $notices = Notice::orWhere('category', 'notice')
+                        ->orWhere('category', 'admission')
+                        ->orWhere('category', 'examination')
+                        ->orderBy('id', 'desc')->take(30)->get();
         return view('Frontend.document_notice', compact('notices'));
+    }
+
+    public function officeOrders()
+    {
+        $notices = Notice::orWhere('category', 'office-orders')
+                        ->orderBy('id', 'desc')->take(30)->get();
+        return view('Frontend.office_orders', compact('notices'));
     }
 
     public function eLearningResource()
@@ -581,8 +597,17 @@ class HomeController extends Controller
     public function ugMaterials(){
         return view('Frontend.ug_materials');
     }
+
     public function pgMaterials(){
         return view('Frontend.pg_materials');
+    }
+
+    public function rndCell(){
+        return view('Frontend.rnd_cell');
+    }
+
+    public function eventSeminars(){
+        return view('Frontend.events_seminars');
     }
 
 }

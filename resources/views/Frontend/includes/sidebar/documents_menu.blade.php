@@ -16,7 +16,7 @@
             <span class="d-none d-md-inline">Others</span> </a>
         <div class="collapse" id="menu2" data-parent="#sidebar">
             <a href="{{ route('documentNotice') }}" class="list-group-item">Notice </a>
-            <a href="{{ route('documentNotice') }}" class="list-group-item">Office Order </a>
+            <a href="{{ route('officeOrders') }}" class="list-group-item">Office Order </a>
             <a href="{{ route('tenders') }}" class="list-group-item">Tenders </a>
             <a href="#" class="list-group-item">Events </a>
             <a href="#" class="list-group-item">Seminars </a>

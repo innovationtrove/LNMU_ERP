@@ -1,7 +1,7 @@
 @extends('Frontend.includes.layout')
 @section('content')
     <!-- slider starts here -->
-    {{-- <section id="yt_spotlight1" class="block mb30">
+    <section id="yt_spotlight1" class="block mb30">
         <div class="container">
             <div class="row">
                 <div id="slideshow" class="col-sm-12">
@@ -27,7 +27,7 @@
                 </div>
             </div>
         </div>
-    </section> --}}
+    </section>
     <!-- slider ends here -->
 
     <div class="container">
@@ -51,9 +51,66 @@
                         </div>
 
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-3">
                         <h3 style="color:#7C0000;">Dr. Vijay Kumar Yadav</h3>
                         <p>D.S.W.</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="module  k2-mega-new-main ">
+                            <h3 class="modtitle">Admission Related News</h3>
+
+                            <div class="modcontent clearfix">
+
+                                <div id="sj_meganew_3938173111453353795" class="sj-meganew ">
+                                    <!--<![endif]-->
+                                    <div
+                                        class="meganew-wrap  meganew-rps01-1 meganew-rps02-1 meganew-rps03-1 meganew-rps04-1">
+                                        <div class="meganew-box">
+                                            <div class="meganew-box-inner">
+                                                <div class="meganew-items theme1">
+                                                    <div class="item-other">
+                                                        <ul class="otehr-link" style="font-size: 14px;">
+                                                            @if ($notices)
+                                                                @foreach ($notices as $notice)
+                                                                    @if ($notice->type == 'link')
+                                                                        <li class="row">
+                                                                            <a href="{{ $notice->filename }}"
+                                                                                class="col-xs-12" title=""
+                                                                                target="_blank"><i
+                                                                                    class="fa fa-envelope"></i>{{ $notice->title }}<img
+                                                                                    src="{{ asset('Frontend/images/newanim.gif') }}" /></a>
+                                                                        </li>
+                                                                    @elseif($notice->type == 'file')
+                                                                        <li class="row">
+                                                                            <a href="{{ asset('upload/Notice') }}/{{ $notice->filename }}"
+                                                                                class="col-xs-12" title=""
+                                                                                target="_blank"><i
+                                                                                    class="fa fa-envelope"></i>{{ $notice->title }}<img
+                                                                                    src="{{ asset('Frontend/images/newanim.gif') }}" /></a>
+                                                                        </li>
+                                                                    @endif
+                                                                @endforeach
+                                                            @else
+                                                                <li>No Data</li>
+                                                            @endif
+                                                           
+                                                        </ul>
+
+
+                                                        <a href="{{ route('allNotice') }}" class="col-xs-12"
+                                                            title=""
+                                                            style="background: #7C0000; color: #fff; width: auto;"><strong>More
+                                                                News</strong></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="clr1"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
 

@@ -42,9 +42,9 @@
                     <div class="box-top">
                         Dean of Humanities
                     </div>
-                    <img src="{{ asset('Frontend/images/officers/dean_humanity.jpeg') }}" style="height: 300px;width:400px;">
+                    <img src="{{ asset('Frontend/images/faculty/ak bachhan.jpg') }}" style="height: 300px;width:400px;">
                     <div class="box-content">
-                        <h3 class="title">Prof.(Dr) Raman Jha</h3>
+                        <h3 class="title">Dr. Ashok Kumar Bachchan</h3>
 
                         <span class="post">deanhumanties@lnmu.ac.in</span>
                     </div>
