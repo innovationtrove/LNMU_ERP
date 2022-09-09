@@ -79,6 +79,7 @@ Route::group(['middleware'=>'throttle:15,1'],function(){
     Route::get('/women-studies', [HomeController::class, 'womenStudies'])->name('womenStudies');
     Route::get('/tenders', [HomeController::class, 'tenders'])->name('tenders');
     Route::get('/document-notice', [HomeController::class, 'documentNotice'])->name('documentNotice');
+    Route::get('/office-orders', [HomeController::class, 'officeOrders'])->name('officeOrders');
     Route::get('/photo-gallery', [HomeController::class, 'photoGallery'])->name('photogallery');
     Route::get('/photo-gallery-golden-jubilee', [HomeController::class, 'photoGallery1'])->name('photogallery1');
     Route::get('/photo-gallery-alumi-association', [HomeController::class, 'photoGallery2'])->name('photogallery2');
@@ -141,6 +142,8 @@ Route::group(['middleware'=>'throttle:15,1'],function(){
     Route::get('/all-notices', [HomeController::class, 'allNotice'])->name('allNotice');
     Route::get('/ug-materials', [HomeController::class, 'ugMaterials'])->name('ugMaterials');
     Route::get('/pg-materials', [HomeController::class, 'pgMaterials'])->name('pgMaterials');
+    Route::get('/r&d-cell', [HomeController::class, 'rndCell'])->name('rndCell');
+    Route::get('/events-&-seminars', [HomeController::class, 'eventSeminars'])->name('eventSeminars');
 
 
 

@@ -45,6 +45,8 @@
                                     <select name="category" class="form-control" required>
                                         <option value="" selected disabled>Select Notice Category</option>
                                         <option value="notice">Latest Notice</option>
+                                        <option value="admission">Admission</option>
+                                        <option value="examination">Examination</option>
                                         <option value="events">Events</option>
                                         <option value="seminars">Seminars</option>
                                         <option value="tenders">Tenders</option>

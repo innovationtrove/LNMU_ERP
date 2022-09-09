@@ -366,7 +366,7 @@
 
                             <li><a href="#" target="_blank">Academic Calendar</a></li>
                             <li><a href="{{ route('iqacSsr') }}">Student Satisfactory Survey</a></li>
-                            <li><a href="{{ route('rtiAct') }}" target="_blank">RTI ACT</a></li>
+                            <li><a href="{{ route('archive') }}" target="_blank">Archive</a></li>
                             <li><a href="#">Careers &amp; Services</a></li>
                         </ul>
                     </div>
