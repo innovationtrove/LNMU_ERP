@@ -610,4 +610,8 @@ class HomeController extends Controller
         return view('Frontend.events_seminars');
     }
 
+    function aqarDataMix()
+    {
+        return view('Frontend.aqardatamix');
+    }
 }

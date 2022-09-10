@@ -144,6 +144,7 @@ Route::group(['middleware'=>'throttle:15,1'],function(){
     Route::get('/pg-materials', [HomeController::class, 'pgMaterials'])->name('pgMaterials');
     Route::get('/r&d-cell', [HomeController::class, 'rndCell'])->name('rndCell');
     Route::get('/events-&-seminars', [HomeController::class, 'eventSeminars'])->name('eventSeminars');
+    Route::get('/aqar-data-mix', [HomeController::class, 'aqarDataMix'])->name('aqarDataMix');
 
 
 
