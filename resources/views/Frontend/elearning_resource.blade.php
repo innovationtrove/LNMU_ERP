@@ -37,7 +37,7 @@
             <li> <a href="/pg-materials" style="font-size: 20px;color:black;">CLick here to access faculty wise study Materials for PG courses</a></li>
             <li> <a href="ug-materials" style="font-size: 20px;color:black;">CLick here to access college wise study Materials for UG courses</a></li>
             <li> <a href="https://drive.google.com/drive/folders/1GaNgTDAwRUFnwlzDbAH4xoRX7OMr4oNS" style="font-size: 20px;color:black;">CLick here to access student learning materials of Directorate of Distance Education</a></li>
-            <li> <a href="https://www.youtube.com/channel/UCxASdduIM9Vc7CYjGFAf50w" style="font-size: 20px;color:black;">YouTube Links</a></li>
+            <li> <a href="https://www.youtube.com/channel/UCxASdduIM9Vc7CYjGFAf50w/videos" style="font-size: 20px;color:black;">YouTube Links</a></li>
         </ul>
     </section>
 
