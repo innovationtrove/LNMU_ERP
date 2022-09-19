@@ -57,6 +57,9 @@
                             <div class="panel-body">
                                 <a href="https://forms.gle/X19qLBJHzf4sgY3o7">Feedback Form</a>
                             </div>
+                            <div class="panel-body">
+                                <a href="https://forms.gle/KnshRZBVgmnSU8Rk6">Feedback Form 2021-22</a>
+                            </div>
                         </div>
                     </div>
                     <div class="panel panel-default">
@@ -74,6 +77,9 @@
                             <div class="panel-body">
                                 <a href="https://forms.gle/4WD6a8FyPtxzKiJS6">Feedback Form</a>
                             </div>
+                            <div class="panel-body">
+                                <a href="https://forms.gle/ZfdNF4eVsRAQhvsE9">Feedback Form 2021-22</a>
+                            </div>
                         </div>
                     </div>
                     <div class="panel panel-default">
@@ -82,14 +88,14 @@
                                 <a class="collapsed" role="button" data-toggle="collapse"
                                 data-parent="#accordion" href="#collapseThree" aria-expanded="false"
                                 aria-controls="collapseThree">
-                                    Alumini
+                                    Alumni
                                 </a>
                             </h4>
                         </div>
                         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
                             aria-labelledby="headingThree">
                             <div class="panel-body">
-                                <a href="#">Data will be uploaded soon.....</a>
+                                <a href="#">Feedback Form</a>
                             </div>
                         </div>
                     </div>
@@ -106,7 +112,7 @@
                         <div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
                             aria-labelledby="headingFour">
                             <div class="panel-body">
-                                <a href="#">Data will be uploaded soon.....</a>
+                                <a href="https://forms.gle/EnLt1mWJgHTmtkoSA">Feedback Form</a>
                             </div>
                         </div>
                     </div>
