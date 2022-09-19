@@ -15,16 +15,16 @@ return new class extends Migration
     {
         Schema::create('teachers', function (Blueprint $table) {
             $table->id();
-            $table->string('department_id');
-            $table->string('designation_id');
-            $table->string('employee_id');
-            $table->string('name');
-            $table->string('father_name');
-            $table->string('mobile');
+            $table->string('department_id')->nullable();
+            $table->string('designation_id')->nullable();
+            $table->string('employee_id')->nullable();
+            $table->string('name')->nullable();
+            $table->string('father_name')->nullable();
+            $table->string('mobile')->nullable();
             $table->string('email_id');
-            $table->string('password');
-            $table->string('pic');
-            $table->string('cv');
+            $table->string('password')->nullable();
+            $table->string('pic')->nullable();
+            $table->string('cv')->nullable();
             $table->timestamps();
         });
     }

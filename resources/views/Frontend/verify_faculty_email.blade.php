@@ -114,23 +114,43 @@
     <!-- slider ends here -->
 
     <div class="container" style="margin-top:50px; margin-bottom:50px;">
-        <h2 class="text-center" style="margin-bottom: 20px;">Please enter your correct email address for faculty registration !</h2>
+        <h2 class="text-center" style="margin-bottom: 20px;">Please enter your correct email address for faculty
+            registration !</h2>
         <div class="form-bg">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                         <div class="form-container">
                             <h3 class="title">Email Verification</h3>
-                            <form class="form-horizontal" action="" method="post">
+                            <form class="form-horizontal" action="{{ route('sendFacultyEmail') }}" method="post">
+                                @csrf
                                 <div class="form-group">
-                                    <input type="email" name="email" class="form-control" placeholder="Enter your correct email address">
+                                    <input type="email" name="email" class="form-control"
+                                        placeholder="Enter your correct email address">
+
                                 </div>
+                                @error('email')
+                                    <div class="alert alert-danger mt-1 mb-1  rounded-pill">{{ $message }}</div>
+                                @enderror
                                 <button class="btn btn-default"> Send </button>
                             </form>
+                          
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    @if (Session::has('success'))
+        <script>
+            Swal.fire(
+                'Success !',
+                'Register Link has been send on your email',
+                'success'
+            )
+        </script>
+    @endif
 @endsection
