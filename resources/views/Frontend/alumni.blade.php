@@ -44,7 +44,7 @@
             </a>
         </div>
         <div class="col-sm-4">
-            <a href="#" class="btn btn-lg">
+            <a href="https://forms.gle/NrJjNJu2xW2rmF88A" class="btn btn-lg">
                 <span>Alumni Registration</span>
             </a>
         </div>
