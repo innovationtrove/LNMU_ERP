@@ -468,9 +468,7 @@ class HomeController extends Controller
 
     public function tenders()
     {
-        $notices = Notice::orWhere('category', 'tenders')
-                        ->orderBy('id', 'desc')->take(30)->get();
-        return view('Frontend.tender', compact('notices'));
+        return view('Frontend.tender');
     }
 
     public function documentNotice()
@@ -616,29 +614,4 @@ class HomeController extends Controller
     {
         return view('Frontend.aqardatamix');
     }
-
-    function ssrCycleIII($password)
-    {
-        if($password == 'LNMU@321'){
-            return view('Frontend.ssr_cycle_III');
-        }
-        else{
-            return view('Frontend.includes.error');
-        }
-    }
-    
-    function naacCycleI()
-    {
-        return view('Frontend.naac_cycle_I');
-    }
-    
-    function naacCycleII()
-    {
-        return view('Frontend.naac_cycle_II');
-    }
-
-    public function verifyFacultyEmail(){
-        return view('Frontend.verify_faculty_email');
-    }
-    
 }

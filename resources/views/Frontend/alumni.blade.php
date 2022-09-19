@@ -32,7 +32,7 @@
     </div>
 <br/>
 <div class="container text-center">
-    <div class="row mb-4">
+    <div class="row">
         <div class="col-sm-4">
             <a href="{{ route('alumniAdministration') }}" class="btn btn-lg">
                 <span>Office bearers</span>
@@ -46,19 +46,6 @@
         <div class="col-sm-4">
             <a href="https://forms.gle/NrJjNJu2xW2rmF88A" class="btn btn-lg">
                 <span>Alumni Registration</span>
-            </a>
-        </div>
-        </div>
-        <div class="row mb-4">
-        
-        <div class="col-sm-4" style="margin-top:15px;">
-            <a href="#" class="btn btn-lg">
-                <span>Document</span>
-            </a>
-        </div>
-        <div class="col-sm-4" style="margin-top:15px;">
-            <a href="{{ route('photogallery2') }}" class="btn btn-lg">
-                <span>Photo Gallery</span>
             </a>
         </div>
     </div>

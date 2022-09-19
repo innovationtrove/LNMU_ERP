@@ -69,93 +69,22 @@
                     </div>
                 </section>
 
-                
-                <div class="container" style="margin-top: 20px;">
-                    <div class="row">
-                        <div class=" col-md-9">
-                            <div class="panel">
-                                <div class="panel-heading">
-                                    <div class="row">
-                                        <div class="col col-sm-5 col-xs-12">
-                                            <h4 class="title">Tender </h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="panel-body table-responsive">
-                                    <table class="table table-hover">
-                                        <thead>
-                                            <tr>
-                                                <th>Sr.No.</th>
-                                                <th>Title</th>
-                                                <th>Date</th>
-                                                <th>Download</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            @if ($notices)
-                                                @foreach ($notices as $notice)
-                                                    @if ($notice->type == 'link')
-                                                        <tr>
-                                                            <td>{{ $loop->index + 1 }}</td>
-                                                            <td>{{ $notice->title }}</td>
-                                                            <td>{{ $notice->updated_at }}</td>
-                                                            <td>
-                                                                <div class="user_icon">
-                                                                    <a href="{{ $notice->filename }}"><img
-                                                                            style="height:50px;width:50px;"
-                                                                            src="{{ asset('Frontend/images/links-icon.jpeg') }}"
-                                                                            alt=""></a>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-                                                    @elseif($notice->type == 'file')
-                                                        <tr>
-                                                            <td>{{ $loop->index + 1 }}</td>
-                                                            <td>{{ $notice->title }}</td>
-                                                            <td>{{ $notice->updated_at }}</td>
-                                                            <td>
-                                                                <div class="user_icon">
-                                                                    <a
-                                                                        href="{{ asset('upload/Notice') }}/{{ $notice->filename }}"><img
-                                                                            style="height:50px;width:50px;"
-                                                                            src="{{ asset('Frontend/images/pdf.png') }}"
-                                                                            alt=""></a>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-                                                    @endif
-                                                @endforeach
-                                            @else
-                                                <tr>
-                                                    <td class="w-100">No Data</td>
-                                                </tr>
-                                            @endif
-
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
+                <section class="col-md-12">
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="panel-body">
+                            <ul>
+                                <li><a href="#">Corrigendum for Biometric Tender</a></li>
+                                <li><a href="#">Tender Notice for Biometric in CET-B.Ed.-2022 Examiantion</a></li>
+                                <li><a href="#">Tender Document for Biometric in CET-B.Ed.-2022 Examiantion</a></li>
+                                <li><a href="#">publication Short Tender Notice for supply of Various Items for Senate-2021</a></li>
+                                <li><a href="#">Short Tender Notice for supply of Various Items for Senate-2021</a></li>
+                                <li><a href="#">Univ- memo no- UB 639 dated 18-12-2021</a></li>
+                                <li><a href="#">Univ- memo no- UB 638 dated 18-12-2021</a></li>
+                                <li><a href="#">Univ- memo no- UB 637 dated 18-12-2021</a></li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-            
-
-                <!--<section class="col-md-12">-->
-                <!--    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">-->
-                <!--        <div class="panel-body">-->
-                <!--            <ul>-->
-                <!--                <li><a href="#">Corrigendum for Biometric Tender</a></li>-->
-                <!--                <li><a href="#">Tender Notice for Biometric in CET-B.Ed.-2022 Examiantion</a></li>-->
-                <!--                <li><a href="#">Tender Document for Biometric in CET-B.Ed.-2022 Examiantion</a></li>-->
-                <!--                <li><a href="#">publication Short Tender Notice for supply of Various Items for Senate-2021</a></li>-->
-                <!--                <li><a href="#">Short Tender Notice for supply of Various Items for Senate-2021</a></li>-->
-                <!--                <li><a href="#">Univ- memo no- UB 639 dated 18-12-2021</a></li>-->
-                <!--                <li><a href="#">Univ- memo no- UB 638 dated 18-12-2021</a></li>-->
-                <!--                <li><a href="#">Univ- memo no- UB 637 dated 18-12-2021</a></li>-->
-                <!--            </ul>-->
-                <!--        </div>-->
-                <!--    </div>-->
-                <!--</section>-->
+                </section>
 
             </main>
         </div>

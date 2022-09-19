@@ -52,19 +52,10 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>1</td>
-                                <td>the Research & Development Cell (RDC) alongwith its Sub - Committees to function
-under Director (RDC) I Convenor are constituted</td>
-                                <td>31/08/2022</td>
-                                <td><a href="{{ asset('upload/RnD/RDC.pdf') }}"><img src="{{ asset('Frontend/images/pdf-icon.png') }}"
-                                    alt=""></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Research Advisory Council (RAC)</td>
-                                <td>31/08/2022</td>
-                                <td><a href="{{ asset('upload/RnD/RAC.pdf') }}"><img src="{{ asset('Frontend/images/pdf-icon.png') }}"
+                                <td>1.</td>
+                                <td>Particulars of organization, functions and duties</td>
+                                <td>12/07/2022</td>
+                                <td><a href="#"><img src="{{ asset('Frontend/images/pdf-icon.png') }}"
                                     alt=""></a>
                                 </td>
                             </tr>
