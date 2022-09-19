@@ -408,6 +408,7 @@
                             <li><a href="{{ route('sportsCalendar') }}" target="_blank">Sports Calendar</a></li>
                             <li><a href="{{ route('aqardsRecognition') }}" target="_blank">Awards/Recognition</a>
                             </li>
+                            <li><a href="#" target="_blank">SSR Cycle III</a></li>
                             <li><a href="{{ route('nirf') }}" target="_blank">NIRF</a></li>
 
                             <li><a href="#" target="_blank">Surprise Visit Report</a></li>

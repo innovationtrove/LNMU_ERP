@@ -44,6 +44,7 @@
             return theDay + ", " + theMonth + " " + currentDate.getDate() + ", " + theYear
         }
     </script>
+    @yield('header-area')
     @include('Frontend.includes.head')
 </head>
 
@@ -66,8 +67,14 @@
 
         @include('Frontend.includes.footer')
     </div>
+<script>
 
-
+$('a').mouseenter(function() { // Attach this function to all mouseenter events for 'a' tags 
+  responsiveVoice.cancel(); // Cancel anything else that may currently be speaking
+  responsiveVoice.speak($(this).text()); // Speak the text contents of all nodes within the current 'a' tag
+});
+</script>
+@yield('script-area')
     @include('Frontend.includes.foot')
 
 </body>

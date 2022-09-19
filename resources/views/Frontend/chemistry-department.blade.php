@@ -277,9 +277,18 @@
                                     <td width="244"><a >vikash9931@gmail.com</a></td>
                                     <td width="244"><img class="size-full wp-image-5033 aligncenter" src="image/2022/Dr.Vikash Kumar Sonu Assistant Professor che.jpg" alt="" width="150"></td>
                                     </tr>
-
                                     <tr>
                                     <td width="44">6.</td>
+                                    <td width="119"><a target="_blank">Dr Abhishek Rai</a></td>
+                                    <td width="96">Assistant Professor</td>
+                                    <!--<td width="132">404663818610</td>-->
+                                    <td width="96">8174062714</td>
+                                    <td width="244"><a >abhishekraiimorg@gmail.com</a></td>
+                                    <td width="244"><img class="size-full wp-image-5033 aligncenter" src="image/2022/Abhi.jpg" alt="" width="150"></td>
+                                    </tr>
+
+                                    <tr>
+                                    <td width="44">7.</td>
                                     <td width="119"><a target="_blank">Sri Shashi Shekhar Jha</a></td>
                                     <td width="96">Demonstrator</td>
                                     <!--<td width="132">404663818610</td>-->
