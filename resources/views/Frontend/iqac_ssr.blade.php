@@ -39,7 +39,7 @@
 
                 <h2 class="display-4 font-weight-light">SSS Questionnaire</h2>
                 <hr/>
-                <a href="https://forms.gle/CeRq349qSdm6Duhe8">Student Satisfaction Survey Click here .</a>
+                <a href="https://forms.gle/rMX8wmAcF8vWA1Ps8">Student Satisfaction Survey Click here .</a>
                 <br/><br/>
                 {{-- <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">

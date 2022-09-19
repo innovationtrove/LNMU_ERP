@@ -145,8 +145,10 @@ Route::group(['middleware'=>'throttle:15,1'],function(){
     Route::get('/r&d-cell', [HomeController::class, 'rndCell'])->name('rndCell');
     Route::get('/events-&-seminars', [HomeController::class, 'eventSeminars'])->name('eventSeminars');
     Route::get('/aqar-data-mix', [HomeController::class, 'aqarDataMix'])->name('aqarDataMix');
-
-
+    Route::get('/ssr-cycle-III/{id?}', [HomeController::class, 'ssrCycleIII'])->name('ssrCycleIII');
+    Route::get('/naac-certificate-cycle-I', [HomeController::class, 'naacCycleI'])->name('naacCycleI');
+    Route::get('/naac-certificate-cycle-II', [HomeController::class, 'naacCycleII'])->name('naacCycleII');
+    Route::get('/verify-faculty-email', [HomeController::class, 'verifyFacultyEmail'])->name('verifyFacultyEmail');
 
 });
 

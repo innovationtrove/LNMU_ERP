@@ -275,8 +275,8 @@
                                     <ul class="subnavi level2">
                                         <li class="level2 first ">
                                             <a title="" class="level2 first item-link"
-                                                href="{{ route('iqacFeedback') }}"><span
-                                                    class="menu-title">Feedback</span></a>
+                                                href="{{ route('ssrCycleIII') }}"><span
+                                                    class="menu-title">SSR Cycle III</span></a>
                                         </li>
                                         <li class="level2 first">
                                             <a title="" class="level2 first item-link"
@@ -294,10 +294,10 @@
                                                 href="{{ route('aqar') }}"><span class="menu-title">AQAR</span></a>
                                         </li>
 
-                                        <li class="level2">
-                                            <a title="" class="level2 item-link"
-                                                href="{{ route('iqacContacts') }}"><span class="menu-title">Contact
-                                                    Us</span></a>
+                                       <li class="level2 ">
+                                            <a title="" class="level2 first item-link"
+                                                href="{{ route('iqacFeedback') }}"><span
+                                                    class="menu-title">Feedback</span></a>
                                         </li>
 
                                         <li class="level2 last">
@@ -628,7 +628,7 @@
 
                                         <li class="level2">
                                             <a title="" class="level2 item-link"
-                                                href="{{ route('iqacContacts') }}"><span class="menu-title">Contact
+                                                href="{{route('ssrCycleIII')}}"><span class="menu-title">SSR Cycle III
                                                     Us</span></a>
                                         </li>
 
@@ -680,6 +680,12 @@
                 </div>
                 <!-- Mobile Navigation ends here -->
 
+<script>
+$('a').mouseenter(function() { // Attach this function to all mouseenter events for 'a' tags 
+  responsiveVoice.cancel(); // Cancel anything else that may currently be speaking
+  responsiveVoice.speak($(this).text()); // Speak the text contents of all nodes within the current 'a' tag
+});
+</script>
                 <script type="text/javascript">
                     jQuery(document).ready(function($) {
                         $('.btn-navbar').click(function() {
