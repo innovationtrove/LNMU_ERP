@@ -636,9 +636,5 @@ class HomeController extends Controller
     {
         return view('Frontend.naac_cycle_II');
     }
-
-    public function verifyFacultyEmail(){
-        return view('Frontend.verify_faculty_email');
-    }
     
 }

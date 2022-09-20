@@ -49,21 +49,21 @@
                         <div class="tab" role="tabpanel">
                             <!-- Nav tabs -->
                             <ul class="nav nav-tabs" role="tablist">
-                                <li role="presentation" class="active"><a href="#Section1" aria-controls="home"
+                                <li role="presentation" class="active"><a href="#Section1" style="font-weight:0;font-size:12px;" aria-controls="home"
                                         role="tab" data-toggle="tab">Criteria 1</a></li>
-                                <li role="presentation"><a href="#Section2" aria-controls="profile" role="tab"
+                                <li role="presentation"><a href="#Section2" style="font-weight:100;font-size:12px;" aria-controls="profile" role="tab"
                                         data-toggle="tab">Criteria 2</a></li>
-                                <li role="presentation"><a href="#Section3" aria-controls="messages" role="tab"
+                                <li role="presentation"><a href="#Section3" style="font-weight:100;font-size:12px;" aria-controls="messages" role="tab"
                                         data-toggle="tab">Criteria 3</a></li>
-                                <li role="presentation"><a href="#Section4" aria-controls="home" role="tab"
+                                <li role="presentation"><a href="#Section4" style="font-weight:100;font-size:12px;" aria-controls="home" role="tab"
                                         data-toggle="tab">Criteria 4</a></li>
-                                <li role="presentation"><a href="#Section5" aria-controls="profile" role="tab"
+                                <li role="presentation"><a href="#Section5" style="font-weight:100;font-size:12px;" aria-controls="profile" role="tab"
                                         data-toggle="tab">Criteria 5</a></li>
-                                <li role="presentation"><a href="#Section6" aria-controls="messages" role="tab"
+                                <li role="presentation"><a href="#Section6" style="font-weight:100;font-size:12px;" aria-controls="messages" role="tab"
                                         data-toggle="tab">Criteria 6</a></li>
-                                <li role="presentation"><a href="#Section7" aria-controls="messages" role="tab"
+                                <li role="presentation"><a href="#Section7" style="font-weight:100;font-size:12px;" aria-controls="messages" role="tab"
                                         data-toggle="tab">Criteria 7</a></li>
-                                <li role="presentation"><a href="#Section8" aria-controls="messages" role="tab"
+                                <li role="presentation"><a href="#Section8" style="font-weight:100;font-size:12px;" aria-controls="messages" role="tab"
                                 data-toggle="tab">SSR Cycle III</a></li>
                             </ul>
                             <!-- Tab panes -->
