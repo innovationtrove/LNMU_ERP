@@ -54,6 +54,7 @@ Route::group(['middleware'=>'throttle:15,1'],function(){
     Route::get('/fee-structure', [HomeController::class, 'feeStructure'])->name('feeStructure');
     Route::get('/pg-syllabus', [HomeController::class, 'pgSyllabus'])->name('pgSyllabus');
     Route::get('/central-library', [HomeController::class, 'centralLibrary'])->name('centralLibrary');
+    Route::get('/raj-library', [HomeController::class, 'rajLibrary'])->name('rajLibrary');
     Route::get('/hostel', [HomeController::class, 'hostel'])->name('hostel');
     Route::get('/suggestive-measure', [HomeController::class, 'suggestiveMeasure'])->name('suggestiveMeasure');
     
@@ -152,6 +153,15 @@ Route::group(['middleware'=>'throttle:15,1'],function(){
     Route::get('/verify-faculty-email', [FacultyController::class, 'verifyFacultyEmail'])->name('verifyFacultyEmail');
     Route::post('/verify-faculty-email', [FacultyController::class, 'sendFacultyEmail'])->name('sendFacultyEmail');
     Route::get('/faculty-register/{user}',[FacultyController::class,'verifyemail_register'])->name('faculty-register')->middleware('signed');
+    Route::get('/proceedings-of-statutory-bodies', [HomeController::class, 'statutoryBodies'])->name('statutoryBodies');
+
+    //Central Library
+    Route::get('/central-library-home', [HomeController::class, 'centralLibraryHome'])->name('centralLibraryHome');
+    Route::get('/central-library-gallery', [HomeController::class, 'centralLibraryGallery'])->name('centralLibraryGallery');
+
+    //Central Library
+    Route::get('/raj-library-home', [HomeController::class, 'rajLibraryHome'])->name('rajLibraryHome');
+    Route::get('/raj-library-gallery', [HomeController::class, 'rajLibraryGallery'])->name('rajLibraryGallery');
 
 });
 

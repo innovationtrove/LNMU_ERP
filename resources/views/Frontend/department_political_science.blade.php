@@ -21,38 +21,51 @@
             <main class="col-md-8 col-sm-8">
                 <div class="col-md-12" id="content_main">
                     <h2><strong>About the Political Science</strong></h2>
-                    <p style="text-align: justify;font-size:13px;">Established in 1972, the Department of Political Science offers higher education in the field of political science and its allied subjects. The department has a rich library for students and teachers. The faculty members of the department have been engaged in quality research.</p>
+                    <p style="text-align: justify;font-size:13px;">Established in 1972, the Department of Political Science
+                        offers higher education in the field of political science and its allied subjects. The department
+                        has a rich library for students and teachers. The faculty members of the department have been
+                        engaged in quality research.</p>
                 </div>
             </main>
         </div>
         <div class="container">
             <h2>Programmes/Academie Activities</h2>
             <ol type="a">
-              <li><strong>Procedure of constitutional amendment in Indian Constitution</strong> by I.D. Mishra, Professor, D.D.U., Gorakhpur, U.P. on 30.10.2010</li>
-              <li><strong><em>Indian Political Culture</em></strong> by Dr. Furkan Ahmed, Jamia Millia Islamia, New Delhi on 15.02.2011</li>
-              <li><strong><em>Womens’ Empowerment</em></strong>by Dr. Sriprakash Mani Tripathi, Professor of Pol. Sc., D.D.U., Gorakhpur, U.P. on 22.09.2011</li>
-              <li>by Dr. Ram Ranvir Singh, Prof. &amp; Head Dept. of Pol. Sc., V.K.S.U., Ara on 08.02.2012</li>
-              <li><strong>Dimensions of Regionalism in India</strong> by Dr. R.K. Lal, Retd. Professor of Pol. Sc., Patna Univeristy, Patna on 09.07.2012</li>
-              <li><strong>Indo-Bangladesh relations in the present contexts</strong> by Dr. Srikrishn Jha, Retd. Professor &amp; Head Dept. of Pol. Sc., D.D.U., Gorakhpur on 28.08.2012</li>
-              <li><strong>“Changing dynamics of International Politics”</strong> by Dr. S.N. Malakar, Professor, School of International Studies, JNU, New Delhi on 29.07.2013</li>
-              <li>Seminar on<strong> Challenges of Alternative Politics</strong> by Dr. P.K. Choudhary, Senior Fellow, ICHR, New Delhi on 12.02.2014</li>
-              <li><strong>Local Self Government : A Laboratory of grass root democracy</strong> by Dr. Rajni Ranjan Jha, Professor &amp; Ex. Head, B.H.U., Varanasi on 24.04.2014</li>
-              <li><strong>National Seminar on Emerging trends in Indian Politics </strong>by Dr. Suraj Yadav, Dr. Ratan Lal &amp; Dr. P.K. Choudhary from University of Delhi and Dr. Sanjay Paswan, (P.U.) &amp; Sri Abdul Bari Siddique, Leader, legislative Party, RJD from Patna on 16-17 December, 2014</li>
+                <li><strong>Procedure of constitutional amendment in Indian Constitution</strong> by I.D. Mishra, Professor,
+                    D.D.U., Gorakhpur, U.P. on 30.10.2010</li>
+                <li><strong><em>Indian Political Culture</em></strong> by Dr. Furkan Ahmed, Jamia Millia Islamia, New Delhi
+                    on 15.02.2011</li>
+                <li><strong><em>Womens’ Empowerment</em></strong>by Dr. Sriprakash Mani Tripathi, Professor of Pol. Sc.,
+                    D.D.U., Gorakhpur, U.P. on 22.09.2011</li>
+                <li>by Dr. Ram Ranvir Singh, Prof. &amp; Head Dept. of Pol. Sc., V.K.S.U., Ara on 08.02.2012</li>
+                <li><strong>Dimensions of Regionalism in India</strong> by Dr. R.K. Lal, Retd. Professor of Pol. Sc., Patna
+                    Univeristy, Patna on 09.07.2012</li>
+                <li><strong>Indo-Bangladesh relations in the present contexts</strong> by Dr. Srikrishn Jha, Retd. Professor
+                    &amp; Head Dept. of Pol. Sc., D.D.U., Gorakhpur on 28.08.2012</li>
+                <li><strong>“Changing dynamics of International Politics”</strong> by Dr. S.N. Malakar, Professor, School of
+                    International Studies, JNU, New Delhi on 29.07.2013</li>
+                <li>Seminar on<strong> Challenges of Alternative Politics</strong> by Dr. P.K. Choudhary, Senior Fellow,
+                    ICHR, New Delhi on 12.02.2014</li>
+                <li><strong>Local Self Government : A Laboratory of grass root democracy</strong> by Dr. Rajni Ranjan Jha,
+                    Professor &amp; Ex. Head, B.H.U., Varanasi on 24.04.2014</li>
+                <li><strong>National Seminar on Emerging trends in Indian Politics </strong>by Dr. Suraj Yadav, Dr. Ratan
+                    Lal &amp; Dr. P.K. Choudhary from University of Delhi and Dr. Sanjay Paswan, (P.U.) &amp; Sri Abdul Bari
+                    Siddique, Leader, legislative Party, RJD from Patna on 16-17 December, 2014</li>
             </ol>
             <br>
             <br>
             <h2>Name of Ex-Heads</h2>
 
             <ol type="a">
-              <li>Rudra Nath Thakur</li>
-              <li>Shankar Kumar Jha</li>
-              <li>Deep Narayan Mishra</li>
-              <li>Satrughan Prasad</li>
-              <li>Anil Kumar Singh</li>
-              <li>Anil Kumar Jha</li>
-              <li>Jagdish Pd. Yadav</li>
-              <li>Dr. Rabindra Choudhary</li>
-              <li>Prof. Jitendra Narayan</li>
+                <li>Rudra Nath Thakur</li>
+                <li>Shankar Kumar Jha</li>
+                <li>Deep Narayan Mishra</li>
+                <li>Satrughan Prasad</li>
+                <li>Anil Kumar Singh</li>
+                <li>Anil Kumar Jha</li>
+                <li>Jagdish Pd. Yadav</li>
+                <li>Dr. Rabindra Choudhary</li>
+                <li>Prof. Jitendra Narayan</li>
             </ol>
             <br>
             <br>
@@ -60,184 +73,167 @@
 
             <p>&nbsp;</p>
             <table width="100%">
-              <tbody>
-                <tr>
-                  <td width="44"><strong>Sl. No.</strong></td>
-                  <td width="119"><strong>Name</strong></td>
-                  <td width="96"><strong>Designation</strong></td>
-                  <!--<td width="132"><strong>Aadhar No.</strong></td>-->
-                  <td width="96"><strong>Mobile </strong></td>
-                  <td width="244"><strong>E-mail id</strong></td>
-                  <td width="244"><strong>Photo</strong></td>
-                </tr>
-                <tr>
-                  <td width="44">1.</td>
-                  <td width="119"><strong>Dr. Jitendra Narayan</strong></td>
-                  <td width="96"><strong>Professor &amp; Head</strong></td>
-                  <!--<td width="132"><strong>206564651084</strong></td>-->
-                  <td width="96"><strong>9934495019</strong></td>
-                  <td width="244"><a href="mailto:	"><strong>hodpolsc@lnmu.ac.in</strong></a></td>
-                  <td width="244"><img class="size-full wp-image-5033 aligncenter" src="http://lnmuacin.in/studentnotice/2019/Dr.Jitendra%20Narayan%20HOD%20Political%20Science.jpg" alt="" width="150"></td>
-                </tr>
-                <!--<tr>-->
-                <!--  <td width="44">2.</td>-->
-                <!--  <td width="119">Dr. Ramdeo Rai</td>-->
-                <!--  <td width="96">Professor</td>-->
-                  <!--<td width="132">998845197587</td>-->
-                <!--  <td width="96">9801016985</td>-->
-                <!--  <td width="244"><a href="mailto:hodpolsc@lnmu.ac.in">hodpolsc@lnmu.ac.in</a></td>-->
-                <!--  <td width="244"><img class="size-full wp-image-5033 aligncenter" src="http://lnmuacin.in/lnmuassets/img/default_pic.jpg" alt="" width="150" /></td>-->
-                <!--</tr>-->
-                <!--<tr>
-                  <td width="44">3.</td>
-                  <td width="119">Dr. Anil Kumar Jha</td>
-                  <td width="96">Professor</td>
-                  <!--<td width="132">237441999441</td>
-                  <td width="96">9334900624</td>
-                  <td width="244"><a href="mailto:jhaanildbg@gmail.com">jhaanildbg@gmail.com</a></td>
-                  <td width="244"><img class="size-full wp-image-5033 aligncenter" src="http://lnmuacin.in/studentnotice/2019/Dr.Anil%20Kumar%20Jha%20%20Professor.jpg" alt="" width="150" /></td>
-                </tr>
-                <tr>
-                  <td width="44">4.</td>
-                  <td width="119">Dr. Jitendra Narayan</td>
-                  <td width="96">Professor</td>
-                  <!--<td width="132">468522214312</td>
-                  <td width="96">9934495019</td>
-                  <td width="244"></td>
-                  <td width="244"><img class="size-full wp-image-5033 aligncenter" src="http://lnmuacin.in/studentnotice/2019/Dr.Jitendra%20Narayan%20Professor.jpg" alt="" width="150" /></td>
-                </tr>-->
-                <tr>
-                  <td width="44">2.</td>
-                  <td width="119">Dr.&nbsp;Muneshwar&nbsp;Yadav</td>
-                  <td width="96">Associate Professor</td>
-                  <!--<td width="132">226324458622</td>-->
-                  <td width="96">9472392123</td>
-                  <td width="244"><a href="mailto:munirkc71@gmail.com">munirkc71@gmail.com</a></td>
-                  <td width="244"><img class="size-full wp-image-5033 aligncenter" src="http://lnmuacin.in/studentnotice/2019/Dr.Muneshwar%20yadav.jpg" alt="" width="150"></td>
-                </tr>
+                <tbody>
+                    <tr>
+                        <td width="44"><strong>Sl. No.</strong></td>
+                        <td width="119"><strong>Name</strong></td>
+                        <td width="96"><strong>Designation</strong></td>
+                        <!--<td width="132"><strong>Aadhar No.</strong></td>-->
+                        <td width="96"><strong>Mobile </strong></td>
+                        <td width="244"><strong>E-mail id</strong></td>
+                        <td width="244"><strong>Photo</strong></td>
+                    </tr>
+                    <tr>
+                        <td width="44">1.</td>
+                        <td width="119"><strong>Dr. Jitendra Narayan</strong></td>
+                        <td width="96"><strong>Professor &amp; Head</strong></td>
+                        <!--<td width="132"><strong>206564651084</strong></td>-->
+                        <td width="96"><strong>9934495019</strong></td>
+                        <td width="244"><a href="mailto:	"><strong>hodpolsc@lnmu.ac.in</strong></a></td>
+                        <td width="244"><img class="size-full wp-image-5033 aligncenter"
+                                src="http://lnmuacin.in/studentnotice/2019/Dr.Jitendra%20Narayan%20HOD%20Political%20Science.jpg"
+                                alt="" width="150"></td>
+                    </tr>
+                   
+                    <tr>
+                        <td width="44">2.</td>
+                        <td width="119">Dr.&nbsp;Muneshwar&nbsp;Yadav</td>
+                        <td width="96">Associate Professor</td>
+                        <!--<td width="132">226324458622</td>-->
+                        <td width="96">9472392123</td>
+                        <td width="244"><a href="mailto:munirkc71@gmail.com">munirkc71@gmail.com</a></td>
+                        <td width="244"><img class="size-full wp-image-5033 aligncenter"
+                                src="http://lnmuacin.in/studentnotice/2019/Dr.Muneshwar%20yadav.jpg" alt=""
+                                width="150"></td>
+                    </tr>
 
-                <tr>
-                  <td width="44">3.</td>
-                  <td width="119">Dr. Ghanshyam Roy</td>
-                  <td width="96">Associate Professor</td>
-                  <!--<td width="132">226324458622</td>-->
-                  <td width="96">9570844366</td>
-                  <td width="244"><a href="mailto:">drgsroy03@gmail.com</a></td>
-                  <td width="244"><img class="size-full wp-image-5033 aligncenter" src="http://lnmuacin.in/studentnotice/pics/Dr. Ghanshyam Roy Political science.jpg" alt="" width="150"></td>
-                </tr>
-                <tr>
-                  <td width="44">4.</td>
-                  <td width="119">Dr. Mukul Bihari Verma </td>
-                  <td width="96">Associate Professor</td>
-                  <!--<td width="132">226324458622</td>-->
-                  <td width="96">9934109863</td>
-                  <td width="244"><a href="mailto:"> mbverma1@gmail.com</a></td>
-                  <td width="244"><img class="size-full wp-image-5033 aligncenter" src="http://lnmuacin.in/studentnotice/pics/Dr. Mukul Bihari Verma Associate Professor Pol Sci.jpg" alt="" width="150"></td>
-                </tr>
-              </tbody>
+                    <tr>
+                        <td width="44">3.</td>
+                        <td width="119">Dr. Ghanshyam Roy</td>
+                        <td width="96">Associate Professor</td>
+                        <!--<td width="132">226324458622</td>-->
+                        <td width="96">9570844366</td>
+                        <td width="244"><a href="mailto:">drgsroy03@gmail.com</a></td>
+                        <td width="244"><img class="size-full wp-image-5033 aligncenter"
+                                src="http://lnmuacin.in/studentnotice/pics/Dr. Ghanshyam Roy Political science.jpg"
+                                alt="" width="150"></td>
+                    </tr>
+                    <tr>
+                        <td width="44">4.</td>
+                        <td width="119">Dr. Mukul Bihari Verma </td>
+                        <td width="96">Associate Professor</td>
+                        <!--<td width="132">226324458622</td>-->
+                        <td width="96">9934109863</td>
+                        <td width="244"><a href="mailto:"> mbverma1@gmail.com</a></td>
+                        <td width="244"><img class="size-full wp-image-5033 aligncenter"
+                                src="http://lnmuacin.in/studentnotice/pics/Dr. Mukul Bihari Verma Associate Professor Pol Sci.jpg"
+                                alt="" width="150"></td>
+                    </tr>
+                </tbody>
             </table>
             &nbsp;
             <br><br>
             <h2>Achievement </h2>
 
             <table width="100%">
-              <tbody>
-                <tr>
-                  <td width="60"><strong>Year</strong></td>
-                  <td width="269"><strong>Title of Book</strong></td>
-                  <td width="123"><strong>Author</strong></td>
-                  <td width="182"><strong>Name of the  Publisher</strong></td>
-                  <td width="152"><strong>ISBN No. of Books</strong></td>
-                </tr>
-                <tr>
-                  <td width="60">2009</td>
-                  <td width="269">India Germany and European Union :<br>
-                    A Partnership Perspectives</td>
-                    <td width="123">Dr. S.N. Prasad</td>
-                    <td width="182">Axis Books Pvt. Ltd., New Delhi</td>
-                    <td width="152">978-81-924740-2-1</td>
-                  </tr>
-                  <tr>
-                    <td width="60">2012</td>
-                    <td width="269">Democracy in India : Challenges &amp; Prospects</td>
-                    <td width="123">Dr. A.K. Jha &amp; others</td>
-                    <td width="182">Axis Books Pvt. Ltd., New Delhi</td>
-                    <td width="152">978-97-8130-55</td>
-                  </tr>
-                  <tr>
-                    <td width="60"></td>
-                    <td width="269">Indo-Nepal foreign Policy</td>
-                    <td width="123">Dr. A.K. Jha</td>
-                    <td width="182">Read Publications, New Delhi</td>
-                    <td width="152">778-93-81302-69-9</td>
-                  </tr>
-                  <tr>
-                    <td width="60">2013</td>
-                    <td width="269">Right to Public Service</td>
-                    <td width="123">Dr. A.K. Jha</td>
-                    <td width="182">Axis Books Pvt. Ltd., New Delhi</td>
-                    <td width="152">978-93-81320-620</td>
-                  </tr>
-                  <tr>
-                    <td width="60">2013</td>
-                    <td width="269">India After  Indra nationalism Content and Challenges</td>
-                    <td width="123"> Dr. M.Yadav </td>
-                    <td width="182">Jankri Prakashan Patna</td>
-                    <td width="152">978-93-8131-3-17-6</td>
-                  </tr>
-                  <tr>
-                    <td width="60">2014</td>
-                    <td width="269">Indian Politics in Today’s Perspective</td>
-                    <td width="123">Dr. S.N. Prasad</td>
-                    <td width="182">Axis Books Pvt. Ltd., New Delhi</td>
-                    <td width="152">978-93-82835-86-8</td>
-                  </tr>
-                </tbody>
-              </table>
-              <br><br>
-
-              <h2>Seminar / Conferences / Workshop</h2>
-
-              <table width="100%">
                 <tbody>
-                  <tr>
-                    <td width="241"><strong>Name of Seminar / Workshop</strong></td>
-                    <td width="222"><strong>Funding Agencies</strong></td>
-                    <td width="175"><strong>Status</strong></td>
-                  </tr>
-                  <tr>
-                    <td width="241">Book’s release ceremony cum Symposium on Regionalism in Indian Politics</td>
-                    <td width="222">Self generated</td>
-                    <td width="175">Held in Sept. 2012</td>
-                  </tr>
-                  <tr>
-                    <td width="241">Seminar on Chanllenge of Alternative Politics</td>
-                    <td width="222">Self generated</td>
-                    <td width="175">Held in Feb. 2014</td>
-                  </tr>
-                  <tr>
-                    <td width="241">National Seminar on Emerging trends in Indian<br>
-                      Politics</td>
-                      <td width="222">UGC, through LNMU, Darbhanga</td>
-                      <td width="175">Held in 16-17 Dec. 2014</td>
+                    <tr>
+                        <td width="60"><strong>Year</strong></td>
+                        <td width="269"><strong>Title of Book</strong></td>
+                        <td width="123"><strong>Author</strong></td>
+                        <td width="182"><strong>Name of the Publisher</strong></td>
+                        <td width="152"><strong>ISBN No. of Books</strong></td>
                     </tr>
                     <tr>
-                    <td width="241">International E-Conference (Offline Too) On Relevance of Gandhism in the Contemporary Era</td>
-                      <td width="222">LNMU, Darbhanga</td>
-                      <td width="175">26,27 February 2021</td>
+                        <td width="60">2009</td>
+                        <td width="269">India Germany and European Union :<br>
+                            A Partnership Perspectives</td>
+                        <td width="123">Dr. S.N. Prasad</td>
+                        <td width="182">Axis Books Pvt. Ltd., New Delhi</td>
+                        <td width="152">978-81-924740-2-1</td>
                     </tr>
                     <tr>
-                    <td width="241">INational Seminar on Babu Jagjivan Ram and Treansforming India</td>
-                      <td width="222">LNMU, Darbhanga</td>
-                      <td width="175">05 April 2021</td>
+                        <td width="60">2012</td>
+                        <td width="269">Democracy in India : Challenges &amp; Prospects</td>
+                        <td width="123">Dr. A.K. Jha &amp; others</td>
+                        <td width="182">Axis Books Pvt. Ltd., New Delhi</td>
+                        <td width="152">978-97-8130-55</td>
                     </tr>
-                  </tbody>
-                </table>
-                <br><br>
+                    <tr>
+                        <td width="60"></td>
+                        <td width="269">Indo-Nepal foreign Policy</td>
+                        <td width="123">Dr. A.K. Jha</td>
+                        <td width="182">Read Publications, New Delhi</td>
+                        <td width="152">778-93-81302-69-9</td>
+                    </tr>
+                    <tr>
+                        <td width="60">2013</td>
+                        <td width="269">Right to Public Service</td>
+                        <td width="123">Dr. A.K. Jha</td>
+                        <td width="182">Axis Books Pvt. Ltd., New Delhi</td>
+                        <td width="152">978-93-81320-620</td>
+                    </tr>
+                    <tr>
+                        <td width="60">2013</td>
+                        <td width="269">India After Indra nationalism Content and Challenges</td>
+                        <td width="123"> Dr. M.Yadav </td>
+                        <td width="182">Jankri Prakashan Patna</td>
+                        <td width="152">978-93-8131-3-17-6</td>
+                    </tr>
+                    <tr>
+                        <td width="60">2014</td>
+                        <td width="269">Indian Politics in Today’s Perspective</td>
+                        <td width="123">Dr. S.N. Prasad</td>
+                        <td width="182">Axis Books Pvt. Ltd., New Delhi</td>
+                        <td width="152">978-93-82835-86-8</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br><br>
+
+            <h2>Seminar / Conferences / Workshop</h2>
+
+            <table width="100%">
+                <tbody>
+                    <tr>
+                        <td width="241"><strong>Name of Seminar / Workshop</strong></td>
+                        <td width="222"><strong>Funding Agencies</strong></td>
+                        <td width="175"><strong>Status</strong></td>
+                    </tr>
+                    <tr>
+                        <td width="241">Book’s release ceremony cum Symposium on Regionalism in Indian Politics</td>
+                        <td width="222">Self generated</td>
+                        <td width="175">Held in Sept. 2012</td>
+                    </tr>
+                    <tr>
+                        <td width="241">Seminar on Chanllenge of Alternative Politics</td>
+                        <td width="222">Self generated</td>
+                        <td width="175">Held in Feb. 2014</td>
+                    </tr>
+                    <tr>
+                        <td width="241">National Seminar on Emerging trends in Indian<br>
+                            Politics</td>
+                        <td width="222">UGC, through LNMU, Darbhanga</td>
+                        <td width="175">Held in 16-17 Dec. 2014</td>
+                    </tr>
+                    <tr>
+                        <td width="241">International E-Conference (Offline Too) On Relevance of Gandhism in the
+                            Contemporary Era</td>
+                        <td width="222">LNMU, Darbhanga</td>
+                        <td width="175">26,27 February 2021</td>
+                    </tr>
+                    <tr>
+                        <td width="241">INational Seminar on Babu Jagjivan Ram and Treansforming India</td>
+                        <td width="222">LNMU, Darbhanga</td>
+                        <td width="175">05 April 2021</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br><br>
 
 
 
-              </div>
+        </div>
 
 
         {{-- <div class="container" style="margin-top: 20px;">
@@ -311,7 +307,7 @@
                 </div>
             </div>
         </div> --}}
-{{--
+        {{--
 
         <div class="container" style="margin-top: 20px;">
             <div class="row">

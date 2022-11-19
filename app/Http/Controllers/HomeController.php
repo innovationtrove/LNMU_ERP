@@ -182,6 +182,11 @@ class HomeController extends Controller
         return view('Frontend.central_library');
     }
 
+    function rajLibrary()
+    {
+        return view('Frontend.raj_library');
+    }
+
     function hostel()
     {
         return view('Frontend.hostel');
@@ -637,4 +642,30 @@ class HomeController extends Controller
         return view('Frontend.naac_cycle_II');
     }
     
+    function statutoryBodies()
+    {
+        return view('Frontend.statutory-body');
+    }
+
+    //Central Library
+    public function centralLibraryHome()
+    {
+        return view('Frontend.central-library.central_library_home');
+    }
+
+    public function centralLibraryGallery()
+    {
+        return view('Frontend.central-library.central_library_gallery');
+    }
+
+    //Raj Library
+    public function rajLibraryHome()
+    {
+        return view('Frontend.raj-library.raj_library_home');
+    }
+
+    public function rajLibraryGallery()
+    {
+        return view('Frontend.raj-library.raj_library_gallery');
+    }
 }

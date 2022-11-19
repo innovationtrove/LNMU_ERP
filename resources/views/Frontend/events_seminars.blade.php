@@ -36,17 +36,180 @@
     </div>
     <!-- slider ends here -->
 
-    <div class="container" style="font-size:15px;">
-        <div class="row g-2 mt-3">
-            <ul>
-                <li>
-                    <div class="col-6">
-                        <div class="p-2 border bg-light">
-                            <a href="#" target="_blank"> Events/Seminars </a>
+    <section class="container " style="margin-top: 50px;">
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingEight">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                            href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                            Academic Year 2020-21
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <ul>
+                                    <li> <a href="{{ asset('upload/course/syllabus/D.Litt & D.Sc regulation.pdf') }}"
+                                            target="_blank">Chemistry</a></li>
+                                    <li> <a href="#"
+                                            target="_blank">Commerce</a></li>
+                                    <li> <a href="#"
+                                            target="_blank">Geography</a></li>
+                                    <li> <a href="#"
+                                            target="_blank">Hindi</a></li>
+                                    <li> <a href="#"
+                                            target="_blank">History</a></li>
+                                    <li> <a href="#"
+                                            target="_blank">Home Science</a></li>
+                                    <li> <a href="#"
+                                            target="_blank">Maithili</a></li>
+                                    <li> <a href="#"
+                                            target="_blank">Sociology</a></li>
+                                    <li> <a href="#"
+                                        target="_blank">Zoology</a></li>
+                                </ul>
+                            </div>
                         </div>
+
                     </div>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+
+    <section class="container ">
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                            href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Academic Year 2019-20
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <ul>
+                                    <li> <a href="{{ asset('upload/course/syllabus/D.Litt & D.Sc regulation.pdf') }}"
+                                            target="_blank">Chemistry</a></li>
+                                    <li> <a href="#"
+                                            target="_blank">Commerce</a></li>
+                                    <li> <a href="#"
+                                            target="_blank">Geography</a></li>
+                                    <li> <a href="#"
+                                            target="_blank">Hindi</a></li>
+                                    <li> <a href="#"
+                                            target="_blank">History</a></li>
+                                    <li> <a href="#"
+                                            target="_blank">Home Science</a></li>
+                                    <li> <a href="#"
+                                            target="_blank">Maithili</a></li>
+                                    <li> <a href="#"
+                                            target="_blank">Sociology</a></li>
+                                    <li> <a href="#"
+                                        target="_blank">Zoology</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container ">
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                            href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Academic Year 2018-19
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <ul>
+                                    <li> <a href="{{ asset('upload/course/syllabus/D.Litt & D.Sc regulation.pdf') }}"
+                                            target="_blank">Chemistry</a></li>
+                                    <li> <a href="#"
+                                            target="_blank">Commerce</a></li>
+                                    <li> <a href="#"
+                                            target="_blank">Geography</a></li>
+                                    <li> <a href="#"
+                                            target="_blank">Hindi</a></li>
+                                    <li> <a href="#"
+                                            target="_blank">History</a></li>
+                                    <li> <a href="#"
+                                            target="_blank">Home Science</a></li>
+                                    <li> <a href="#"
+                                            target="_blank">Maithili</a></li>
+                                    <li> <a href="#"
+                                            target="_blank">Sociology</a></li>
+                                    <li> <a href="#"
+                                        target="_blank">Zoology</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container " >
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                            href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Academic Year 2017-18
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <ul>
+                                    <li> <a href="{{ asset('upload/course/syllabus/D.Litt & D.Sc regulation.pdf') }}"
+                                            target="_blank">Chemistry</a></li>
+                                    <li> <a href="#"
+                                            target="_blank">Commerce</a></li>
+                                    <li> <a href="#"
+                                            target="_blank">Geography</a></li>
+                                    <li> <a href="#"
+                                            target="_blank">Hindi</a></li>
+                                    <li> <a href="#"
+                                            target="_blank">History</a></li>
+                                    <li> <a href="#"
+                                            target="_blank">Home Science</a></li>
+                                    <li> <a href="#"
+                                            target="_blank">Maithili</a></li>
+                                    <li> <a href="#"
+                                            target="_blank">Sociology</a></li>
+                                    <li> <a href="#"
+                                        target="_blank">Zoology</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 @endsection

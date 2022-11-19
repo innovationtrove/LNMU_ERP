@@ -1,15 +1,171 @@
 <!DOCTYPE html>
 <html>
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
 
 <head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     @include('Frontend.includes.head')
+    <style>
+        .modal-box {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .modal-box .show-modal {
+            color: #fff;
+            background-color: #00aeef;
+            font-size: 16px;
+            font-weight: 500;
+            text-transform: uppercase;
+            padding: 12px 18px;
+            margin: 50px auto 0;
+            border: none;
+            outline: none;
+            border-radius: 20px;
+            display: block;
+            transition: all 0.3s ease 0s;
+        }
+
+        .modal-box .show-modal:hover,
+        .modal-box .show-modal:focus {
+            color: #fff;
+            outline: none;
+            box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .modal-backdrop.in {
+            background-color: #999;
+            opacity: 0.7;
+        }
+
+        .modal-box .modal-dialog {
+            width: 500px;
+            margin: 70px auto 0;
+        }
+
+        .modal.fade .modal-dialog {
+            transform: translateY(-100px);
+        }
+
+        .modal.in .modal-dialog {
+            transform: translateY(0);
+        }
+
+        .modal-box .modal-dialog .modal-content {
+            background: transparent;
+            text-align: center;
+            border-radius: 0;
+            border: none;
+            box-shadow: none;
+            position: relative;
+            z-index: 1;
+        }
+
+        .modal-box .modal-dialog .modal-content:before,
+        .modal-box .modal-dialog .modal-content:after {
+            content: '';
+            background-color: #00aeef;
+            height: 100%;
+            width: 90%;
+            margin: auto;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: -1;
+            clip-path: polygon(50% 0%, 100% 30%, 100% 100%, 0 100%, 0 30%);
+        }
+
+        .modal-box .modal-dialog .modal-content:after {
+            background-color: #fff;
+            width: 100%;
+            height: 80%;
+            top: auto;
+            bottom: 10px;
+            clip-path: polygon(0 0, 50% 10%, 100% 0, 100% 100%, 50% 90%, 0 100%);
+        }
+
+        .modal-box .modal-dialog .modal-content .modal-body {
+            padding: 40px 20px 50px !important;
+        }
+
+        .modal-box .modal-dialog .modal-content .modal-body .cancel {
+            color: rgba(255, 255, 255, 0.7);
+            background-color: transparent;
+            font-size: 16px;
+            font-weight: 500;
+            text-transform: uppercase;
+            padding: 0;
+            margin: 0 0 70px;
+            border: none;
+            transition: all 0.3s ease 0s;
+        }
+
+        .modal-box .modal-dialog .modal-content .modal-body .cancel:hover {
+            color: #fff;
+        }
+
+        .modal-box .modal-dialog .modal-content .modal-body .title {
+            color: #00aeef;
+            font-size: 33px;
+            line-height: 33px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin: 0 0 25px;
+        }
+
+        .modal-box .modal-dialog .modal-content .modal-body .form-control {
+            color: #00aeef;
+            font-size: 16px;
+            font-weight: 500;
+            text-align: center;
+            width: 300px;
+            height: 45px;
+            margin: 0 auto 30px;
+            border: 2px solid #00aeef;
+            border-radius: 30px;
+            transition: all 0.3s ease 0s;
+        }
+
+        .modal-box .modal-dialog .modal-content .modal-body .form-control:focus {
+            box-shadow: 0 3px 0 0 #00aeef;
+        }
+
+        .modal-box .modal-dialog .modal-content .modal-body .form-control::placeholder {
+            color: #00aeef;
+        }
+
+        .modal-box .modal-dialog .modal-content .modal-body .btn {
+            color: #fff;
+            background: #00aeef;
+            font-size: 16px;
+            font-weight: 400;
+            text-transform: uppercase;
+            padding: 5px 30px;
+            margin: 0 auto 10px;
+            border-radius: 25px;
+            border: none;
+            display: block;
+            transition: all 0.3s;
+        }
+
+        .modal-box .modal-dialog .modal-content .modal-body .btn:hover {
+            text-shadow: 3px 3px 3px rgba(0, 0, 0, .9);
+            box-shadow: 0 3px 0 0 #00aeef;
+        }
+
+        @media only screen and (max-width: 576px) {
+            .modal-dialog {
+                width: 95% !important;
+            }
+        }
+    </style>
 </head>
 
 <body id="bd" class="homepage home-layout1 res">
     <div id="yt_wrapper" class="layout-wide">
         <!-- header starts here -->
-        @include('Frontend.includes.header')
+       @include('Frontend.includes.header')
         <!-- header ends here -->
         <!-- slider starts here -->
         <section id="yt_spotlight1" class="block">
@@ -285,8 +441,9 @@
                                                     hspace="3">SSS </a>
                                         </li>
                                         <li class="" style="width: -20px;">
-                                            <a href="{{ route('centralLibrary') }}" target="_blank"><img
-                                                    src="{{ asset('Frontend/images/icon12.png') }}" alt=""
+                                            <a type="button" class="show-modal" data-toggle="modal"
+                                            data-target="#myModal" href="#" target="_blank"><img
+                                                    src="{{ asset('Frontend/images/icon12.png') }}" alt="Library"
                                                     hspace="3">Library</a>
                                         </li>
                                         <li class="" style="width: -20px;">
@@ -314,6 +471,44 @@
             </div>
         </section>
         <!-- list box ends here -->
+        
+        
+        
+       <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="modal-box">
+                        <!-- Modal -->
+                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+                            aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content clearfix">
+                                    <div class="modal-content clearfix">
+                                        <div class="modal-body">
+                                            <button class="cancel" data-dismiss="modal">close</button>
+                                            <h3 class="title">Choose Library</h3>
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <a href="{{ route('centralLibraryHome') }}"><img src="{{ asset('Frontend/images/library/central-library/cl1.jpeg') }}" height="100" width="150" style="border-radius: 5px 5px 0px 0px" />
+                                                    <button class="btn">Central Library</button></a>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <a href="{{ route('rajLibraryHome') }}"><img src="{{ asset('Frontend/images/library/raj-library/rl1.jpeg') }}" height="100" width="150" style="border-radius: 5px 5px 0px 0px" />
+                                                    <button class="btn">Raj Library</button></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        
         <script type="text/javascript" src="{{ asset('Frontend/js/crawler.js') }}"></script>
         <style>
             .marquee0 {
@@ -401,6 +596,8 @@
                     <div id="top9" class="col-lg-3 col-sm-6  slideLft1">
                         <ul>
                             <li><a href="http://lnmuniversity.com/LNMU_ERP/Home.aspx" target="_blank">Online Portal
+                                    <img src="{{ asset('Frontend/images/newanim.gif') }}"></a></li>
+                                    <li><a href="http://lnmuniversity.com/MES/login.aspx" target="_blank">Portal for Practical/Viva-Voce Marks
                                     <img src="{{ asset('Frontend/images/newanim.gif') }}"></a></li>
                             <li><a href="{{ asset('upload/Notice/Student_Helpline.pdf') }}" target="_blank">Helpline
                                     For University Student</a></li>
@@ -567,8 +764,7 @@
 
                                 <div id="sj_meganew_3938173111453353795" class="sj-meganew ">
                                     <!--<![endif]-->
-                                    <div
-                                        class="meganew-wrap  meganew-rps01-1 meganew-rps02-1 meganew-rps03-1 meganew-rps04-1">
+                                    <div class="meganew-wrap  meganew-rps01-1 meganew-rps02-1 meganew-rps03-1 meganew-rps04-1">
                                         <div class="meganew-box">
                                             <div class="meganew-box-inner">
 
@@ -667,8 +863,7 @@
                                         </ul>
                                     </div>
 
-                                    <div
-                                        class="slider not-js cols-6 preset01-3 preset02-3 preset03-1 preset04-1 preset05-1">
+                                    <div class="slider not-js cols-6 preset01-3 preset02-3 preset03-1 preset04-1 preset05-1">
                                         <div class="vpo-wrap">
                                             <div class="vp">
                                                 <div class="vpi-wrap">

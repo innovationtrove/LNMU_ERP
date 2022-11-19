@@ -46,7 +46,7 @@
                                 <li class="item-1540"><a href="https://state.bihar.gov.in/educationbihar/CitizenHome.html">Department of Bihar Govt.</a></li>
                                 <li class="item-1541"><a href="#">Examination Related Updates</a>
                                 </li>
-                                <li class="item-1542"><a href="#">Proceedings of Statutory Bodies</a></li>
+                                <li class="item-1542"><a href="{{ route('statutoryBodies') }}">Proceedings of Statutory Bodies</a></li>
                                 <li class="item-1542"><a href="#">Holidays Calendar 2022</a></li>
                                 <li class="item-1542"><a href="{{ route('contactus') }}">Contact Us</a></li>
                             </ul>
